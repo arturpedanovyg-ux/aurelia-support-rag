@@ -1,5 +1,7 @@
 # Aurelia Jewelry Support Bot: a RAG case study with a measured evaluation
 
+🎥 **Demo video (2 min):** https://www.loom.com/share/0490189582834eae80eef0f7d93b54a3
+
 A customer-support chatbot that answers questions from a small knowledge base (RAG: retrieval + generation), built as a portfolio project. The focus is not just "a bot that works" but **how I measured it, found where it fails, and improved it step by step**.
 
 > The store, its policies and the knowledge base are **fictional and synthetic** (13 short documents). Results show the method, not production accuracy.
@@ -51,7 +53,7 @@ archive/          the first-iteration scripts and test set
 ## Run it
 
 Requires Python 3.12.
-
+> In every new terminal: `cd` into the project folder and activate the virtual environment (`.venv\Scripts\Activate.ps1`) first.
 ```
 python -m venv .venv
 .venv\Scripts\activate            # Windows PowerShell
